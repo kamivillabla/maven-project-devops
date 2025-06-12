@@ -1,0 +1,38 @@
+# === MAVEN ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+*.log
+
+# === JAVA ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === VS CODE ===
+.vscode/
+*.code-workspace
+
+# === SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === ARCHIVOS TEMPORALES DE EDITORES ===
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# === CONFIGURACIONES PERSONALES ===
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# === AMBIENTE Y SECRETS ===
+.env
+.env.*
